@@ -26,6 +26,7 @@ professorrafaelalves.com/
 ├── assets/
 │   └── images/              # High-resolution optimized local image assets
 ├── .gitignore               # Git ignore rules
+├── humans.txt               # Team and author attribution manifest
 ├── index.html               # Main production landing page & semantic markup
 ├── llms.txt                 # Structured context for LLMs and AI crawlers
 ├── mcp-manifest.json        # WebMCP agent tools and endpoints definition
@@ -71,6 +72,16 @@ Run tests using:
 ```bash
 node test-automation/run_tests.js
 ```
+
+---
+
+## 👨‍💻 Author & Technical Architecture
+
+- **UI Architect & Developer:** **Alex Santos (alexlivre)**
+- **Website:** [https://alexlivre.dev/](https://alexlivre.dev/)
+- **GitHub:** [@alexlivre](https://github.com/alexlivre)
+
+Crafted according to the *60-30-10 Alabaster Frost* design system, WCAG AAA contrast compliance, and strict Anti-AI-Slop standards.
 
 ---
 

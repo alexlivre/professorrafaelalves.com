@@ -1,0 +1,21 @@
+/* TEAM */
+  Web Architect & Designer: Alex Santos (alexlivre)
+  Site: https://alexlivre.dev/
+  GitHub: https://github.com/alexlivre
+  Location: Brasil
+
+/* OWNER */
+  Subject: Prof. Rafael Alves da Silva
+  Role: Keynote Speaker, AI & Education Researcher, Microsoft MIEE
+  Site: https://professorrafaelalves.com/
+
+/* THANKS */
+  Comunidade de Educadores & Pesquisadores em IA
+  Escola SESI LEM & Rede FIEB Bahia
+  Microsoft Education & Bett Brasil
+
+/* SITE */
+  Standards: HTML5, CSS3 Grid/Flex, Vanilla ES6+ JS (Zero Frameworks)
+  Design System: 60-30-10 Alabaster Frost
+  Components: WebMCP (Model Context Protocol), Schema.org JSON-LD, llms.txt, Geo SEO
+  Software: Crafted with precision without AI-slop

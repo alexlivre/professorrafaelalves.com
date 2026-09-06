@@ -1206,6 +1206,20 @@ ul {
   font-size: 0.8rem;
 }
 
+.credit-link {
+  color: var(--navy-deep);
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: var(--border-subtle);
+  text-underline-offset: 3px;
+  transition: color var(--transition-fast), text-decoration-color var(--transition-fast);
+}
+
+.credit-link:hover {
+  color: var(--accent-solar);
+  text-decoration-color: var(--accent-solar);
+}
+
 .footer-protocol-badges {
   display: flex;
   gap: 0.75rem;

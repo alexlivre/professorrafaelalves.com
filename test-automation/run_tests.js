@@ -142,6 +142,20 @@ test('Integration: style.css integrity and presence', () => {
   assert(content.includes(':root'), 'style.css must define design system CSS variables');
 });
 
+// Test 8: Unit - humans.txt and authorship integrity
+test('Unit: humans.txt presence and authorship attribution', () => {
+  const humansPath = path.join(rootDir, 'humans.txt');
+  assert(fs.existsSync(humansPath), 'humans.txt must exist');
+  const content = fs.readFileSync(humansPath, 'utf8');
+  assert(content.includes('Alex Santos (alexlivre)'), 'humans.txt must attribute Alex Santos (alexlivre)');
+  assert(content.includes('https://alexlivre.dev/'), 'humans.txt must link https://alexlivre.dev/');
+
+  const htmlPath = path.join(rootDir, 'index.html');
+  const html = fs.readFileSync(htmlPath, 'utf8');
+  assert(html.includes('href="humans.txt"'), 'index.html must link humans.txt');
+  assert(html.includes('https://alexlivre.dev/'), 'index.html must link https://alexlivre.dev/');
+});
+
 console.log('\n--- Test Summary ---');
 console.log(`Passed: ${testsPassed}`);
 console.log(`Failed: ${testsFailed}`);
