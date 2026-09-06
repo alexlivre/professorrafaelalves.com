@@ -72,7 +72,7 @@ function initMobileNav() {
     toggleBtn.setAttribute('aria-expanded', isActive ? 'true' : 'false');
   });
 
-  mainNav.querySelectorAll('.nav-link').forEach(link => {
+  mainNav.querySelectorAll('a').forEach(link => {
     link.addEventListener('click', () => {
       mainNav.classList.remove('active');
       toggleBtn.setAttribute('aria-expanded', 'false');
