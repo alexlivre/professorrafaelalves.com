@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+Allow: /llms.txt
+Allow: /mcp-manifest.json
+Allow: /rafael_alves_da_silva.md
+
+# Allow AI Assistants & LLM Crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+Sitemap: https://professorrafaelalves.com/sitemap.xml

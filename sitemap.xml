@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Página Principal Oficial -->
+  <url>
+    <loc>https://professorrafaelalves.com/</loc>
+    <lastmod>2026-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://professorrafaelalves.com/assets/images/portrait-bett-brasil.webp</image:loc>
+      <image:title>Prof. Rafael Alves da Silva - Palestrante Oficial Bett Brasil</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://professorrafaelalves.com/assets/images/students-lab-g1.jpg</image:loc>
+      <image:title>Projeto IA Afro-Indígena - Escola SESI Luís Eduardo Magalhães</image:title>
+    </image:image>
+  </url>
+
+  <!-- Machine-Readable LLM & Crawler Files -->
+  <url>
+    <loc>https://professorrafaelalves.com/llms.txt</loc>
+    <lastmod>2026-09-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://professorrafaelalves.com/mcp-manifest.json</loc>
+    <lastmod>2026-09-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://professorrafaelalves.com/rafael_alves_da_silva.md</loc>
+    <lastmod>2026-09-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
