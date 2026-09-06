@@ -51,8 +51,20 @@
   <meta name="twitter:description" content="Educador na Escola SESI LEM (Bahia), palestrante Bett Brasil e criador do projeto IA Afro-Indígena.">
   <meta name="twitter:image" content="assets/images/portrait-bett-brasil.webp">
 
+  <!-- Preconnect to Google Fonts & Preload Critical LCP Hero Image -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="image" href="assets/images/portrait-bett-brasil.webp" fetchpriority="high">
+
   <!-- Favicon -->
   <link rel="icon" type="image/jpeg" href="assets/images/avatar-rafael.jpg">
+
+  <!-- Non-blocking Google Fonts -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap">
+  </noscript>
 
   <!-- Stylesheet -->
   <link rel="stylesheet" href="style.css">
@@ -242,7 +254,7 @@
 
         <div class="hero-visual">
           <div class="portrait-frame">
-            <img src="assets/images/portrait-bett-brasil.webp" alt="Prof. Rafael Alves da Silva na Bett Brasil" width="600" height="600" referrerpolicy="no-referrer">
+            <img src="assets/images/portrait-bett-brasil.webp" alt="Prof. Rafael Alves da Silva na Bett Brasil" width="600" height="600" fetchpriority="high" decoding="async" referrerpolicy="no-referrer">
             <div class="portrait-caption-box">
               <div>
                 <div class="caption-label">Bett Brasil 2026</div>
@@ -402,28 +414,28 @@
 
         <div class="certs-grid">
           <article class="cert-card">
-            <img src="assets/images/badge-miee.png" alt="Badge Microsoft Innovative Educator Expert" class="cert-badge-img" width="104" height="104" referrerpolicy="no-referrer">
+            <img src="assets/images/badge-miee.png" alt="Badge Microsoft Innovative Educator Expert" class="cert-badge-img" width="104" height="104" loading="lazy" decoding="async" referrerpolicy="no-referrer">
             <h3 class="cert-title">MIEE Expert</h3>
             <div class="cert-issuer">Microsoft Education</div>
             <div class="cert-year">Ciclo 2024 &mdash; 2026</div>
           </article>
 
           <article class="cert-card">
-            <img src="assets/images/badge-ai-leader.png" alt="Badge Microsoft AI Transformation Leader" class="cert-badge-img" width="104" height="104" referrerpolicy="no-referrer">
+            <img src="assets/images/badge-ai-leader.png" alt="Badge Microsoft AI Transformation Leader" class="cert-badge-img" width="104" height="104" loading="lazy" decoding="async" referrerpolicy="no-referrer">
             <h3 class="cert-title">AI Transformation Leader</h3>
             <div class="cert-issuer">Microsoft Education</div>
             <div class="cert-year">Ano 2026</div>
           </article>
 
           <article class="cert-card">
-            <img src="assets/images/badge-agent-academy.png" alt="Badge Microsoft Agent Academy" class="cert-badge-img" width="104" height="104" referrerpolicy="no-referrer">
+            <img src="assets/images/badge-agent-academy.png" alt="Badge Microsoft Agent Academy" class="cert-badge-img" width="104" height="104" loading="lazy" decoding="async" referrerpolicy="no-referrer">
             <h3 class="cert-title">Agent Academy</h3>
             <div class="cert-issuer">Microsoft Copilot Studio</div>
             <div class="cert-year">Ano 2026</div>
           </article>
 
           <article class="cert-card">
-            <img src="assets/images/badge-ibm-prompt.png" alt="Badge IBM Prompt Engineering" class="cert-badge-img" width="104" height="104" referrerpolicy="no-referrer">
+            <img src="assets/images/badge-ibm-prompt.png" alt="Badge IBM Prompt Engineering" class="cert-badge-img" width="104" height="104" loading="lazy" decoding="async" referrerpolicy="no-referrer">
             <h3 class="cert-title">Prompt Engineering</h3>
             <div class="cert-issuer">IBM SkillsBuild</div>
             <div class="cert-year">Ano 2025</div>
@@ -453,7 +465,7 @@
         <div class="projects-grid" id="projectsContainer">
           <article class="project-card" data-category="ia">
             <div class="project-thumb-box">
-              <img src="assets/images/students-lab-g1.jpg" alt="Estudantes em laboratório de IA" referrerpolicy="no-referrer">
+              <img src="assets/images/students-lab-g1.jpg" alt="Estudantes em laboratório de IA" width="720" height="397" loading="lazy" decoding="async" referrerpolicy="no-referrer">
             </div>
             <div class="project-body">
               <div class="project-tag">Projeto Pioneiro &bull; G1 Globo</div>
@@ -469,7 +481,7 @@
 
           <article class="project-card" data-category="eventos">
             <div class="project-thumb-box">
-              <img src="assets/images/gallery-bett-brasil.jpg" alt="Prof. Rafael palestrando na Bett Brasil" referrerpolicy="no-referrer">
+              <img src="assets/images/gallery-bett-brasil.jpg" alt="Prof. Rafael palestrando na Bett Brasil" width="600" height="400" loading="lazy" decoding="async" referrerpolicy="no-referrer">
             </div>
             <div class="project-body">
               <div class="project-tag">Keynote &bull; São Paulo</div>
@@ -485,7 +497,7 @@
 
           <article class="project-card" data-category="artigos">
             <div class="project-thumb-box">
-              <img src="assets/images/gallery-puc-goias.jpg" alt="Prof. Rafael na PUC Goiás" referrerpolicy="no-referrer">
+              <img src="assets/images/gallery-puc-goias.jpg" alt="Prof. Rafael na PUC Goiás" width="600" height="400" loading="lazy" decoding="async" referrerpolicy="no-referrer">
             </div>
             <div class="project-body">
               <div class="project-tag">Pesquisa Acadêmica</div>
@@ -520,7 +532,7 @@
             </a>
           </div>
           <div class="spotlight-img-wrap">
-            <img src="assets/images/portrait-bett-brasil.webp" alt="Prof. Rafael Alves na Bett Brasil" referrerpolicy="no-referrer">
+            <img src="assets/images/portrait-bett-brasil.webp" alt="Prof. Rafael Alves na Bett Brasil" width="400" height="400" loading="lazy" decoding="async" referrerpolicy="no-referrer">
           </div>
         </div>
       </div>
@@ -539,7 +551,7 @@
 
         <div class="gallery-grid">
           <div class="gallery-item" data-img="assets/images/gallery-bett-brasil.jpg" data-caption="Apresentação na Bett Brasil (São Paulo - SP)">
-            <img src="assets/images/gallery-bett-brasil.jpg" alt="Bett Brasil" referrerpolicy="no-referrer">
+            <img src="assets/images/gallery-bett-brasil.jpg" alt="Bett Brasil" width="400" height="300" loading="lazy" decoding="async" referrerpolicy="no-referrer">
             <div class="gallery-overlay">
               <div class="gallery-item-title">Bett Brasil 2026</div>
               <div class="gallery-item-sub">São Paulo &bull; Keynote</div>
@@ -547,7 +559,7 @@
           </div>
 
           <div class="gallery-item" data-img="assets/images/gallery-puc-goias.jpg" data-caption="Conferência de Educação na PUC Goiás">
-            <img src="assets/images/gallery-puc-goias.jpg" alt="PUC Goiás" referrerpolicy="no-referrer">
+            <img src="assets/images/gallery-puc-goias.jpg" alt="PUC Goiás" width="400" height="300" loading="lazy" decoding="async" referrerpolicy="no-referrer">
             <div class="gallery-overlay">
               <div class="gallery-item-title">PUC Goiás</div>
               <div class="gallery-item-sub">Goiânia &bull; Currículo</div>
@@ -555,7 +567,7 @@
           </div>
 
           <div class="gallery-item" data-img="assets/images/gallery-conferencia-ia.jpg" data-caption="Conferência de Inteligência Artificial e Sociedade">
-            <img src="assets/images/gallery-conferencia-ia.jpg" alt="Conferência IA" referrerpolicy="no-referrer">
+            <img src="assets/images/gallery-conferencia-ia.jpg" alt="Conferência IA" width="400" height="300" loading="lazy" decoding="async" referrerpolicy="no-referrer">
             <div class="gallery-overlay">
               <div class="gallery-item-title">Conferência IA</div>
               <div class="gallery-item-sub">Painel Temático</div>
@@ -563,7 +575,7 @@
           </div>
 
           <div class="gallery-item" data-img="assets/images/gallery-microsoft-tour.jpg" data-caption="Visita técnica e imersão tecnológica no ecossistema Microsoft">
-            <img src="assets/images/gallery-microsoft-tour.jpg" alt="Microsoft Tour" referrerpolicy="no-referrer">
+            <img src="assets/images/gallery-microsoft-tour.jpg" alt="Microsoft Tour" width="400" height="300" loading="lazy" decoding="async" referrerpolicy="no-referrer">
             <div class="gallery-overlay">
               <div class="gallery-item-title">Microsoft Tech Tour</div>
               <div class="gallery-item-sub">MIEE &amp; Inovação</div>
@@ -571,7 +583,7 @@
           </div>
 
           <div class="gallery-item" data-img="assets/images/gallery-podcast-innovent.jpg" data-caption="Entrevista ao podcast sobre futuro da educação e tecnologia">
-            <img src="assets/images/gallery-podcast-innovent.jpg" alt="Podcast Innovent" referrerpolicy="no-referrer">
+            <img src="assets/images/gallery-podcast-innovent.jpg" alt="Podcast Innovent" width="400" height="300" loading="lazy" decoding="async" referrerpolicy="no-referrer">
             <div class="gallery-overlay">
               <div class="gallery-item-title">Podcast Inovação</div>
               <div class="gallery-item-sub">Debate Educacional</div>
@@ -579,7 +591,7 @@
           </div>
 
           <div class="gallery-item" data-img="assets/images/gallery-fieb-salvador.jpg" data-caption="Premiação de Boas Práticas na FIEB em Salvador">
-            <img src="assets/images/gallery-fieb-salvador.jpg" alt="FIEB Salvador" referrerpolicy="no-referrer">
+            <img src="assets/images/gallery-fieb-salvador.jpg" alt="FIEB Salvador" width="400" height="300" loading="lazy" decoding="async" referrerpolicy="no-referrer">
             <div class="gallery-overlay">
               <div class="gallery-item-title">FIEB Salvador</div>
               <div class="gallery-item-sub">Boas Práticas</div>
@@ -812,7 +824,7 @@
   <div class="lightbox-modal" id="lightboxModal" aria-hidden="true" role="dialog" aria-label="Visualizador de Imagem" hidden>
     <div class="lightbox-content">
       <button type="button" class="lightbox-close" id="lightboxClose" aria-label="Fechar visualizador">&times;</button>
-      <img src="assets/images/avatar-rafael.jpg" alt="" id="lightboxImg">
+      <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3C/svg%3E" alt="Visualização ampliada" id="lightboxImg" width="800" height="600" loading="lazy" decoding="async">
       <div class="lightbox-caption" id="lightboxCaption"></div>
     </div>
   </div>
