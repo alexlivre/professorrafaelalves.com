@@ -349,7 +349,6 @@ ul {
 
 .hero-title .highlight-navy {
   color: var(--navy-deep);
-  border-bottom: 3px solid var(--accent-violet);
 }
 
 .hero-lead {
