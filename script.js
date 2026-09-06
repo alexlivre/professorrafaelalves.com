@@ -159,14 +159,17 @@ function initLightbox() {
 
       modalImg.src = imgSrc;
       modalCaption.textContent = caption || '';
+      modal.removeAttribute('hidden');
       modal.classList.add('active');
       modal.setAttribute('aria-hidden', 'false');
+      closeBtn.focus();
     });
   });
 
   const closeModal = () => {
     modal.classList.remove('active');
     modal.setAttribute('aria-hidden', 'true');
+    modal.setAttribute('hidden', '');
   };
 
   closeBtn.addEventListener('click', closeModal);

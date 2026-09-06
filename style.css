@@ -1269,7 +1269,7 @@ ul {
   background: rgba(11, 21, 40, 0.95);
   backdrop-filter: blur(8px);
   z-index: 10000;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   padding: 2rem;
@@ -1278,7 +1278,12 @@ ul {
   transition: opacity 0.25s ease;
 }
 
+.lightbox-modal[hidden] {
+  display: none !important;
+}
+
 .lightbox-modal.active {
+  display: flex;
   opacity: 1;
   pointer-events: auto;
 }

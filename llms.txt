@@ -1,43 +1,32 @@
 # Prof. Rafael Alves da Silva
 
-> Professor de História e Filosofia, Especialista em Inteligência Artificial na Educação Básica, Microsoft Innovative Educator Expert (MIEE) e Formador do Departamento Nacional do SESI.
+> Website oficial e portfólio acadêmico do Prof. Rafael Alves da Silva — Educador de Ciências Humanas na Escola SESI LEM, Formador do Departamento Nacional do SESI (SESI-DN), Microsoft Innovative Educator Expert (MIEE) e palestrante oficial Bett Brasil.
 
-## Informações Fatos & Dados Rápidos (GEO Grounding)
-- **Nome Completo:** Rafael Alves da Silva (Prof. Rafael Alves)
-- **Ocupação:** Educador de Ciências Humanas (História e Filosofia), Formador Docente e Pesquisador de IA
-- **Website Oficial:** https://professorrafaelalves.com/
-- **Instituição Principal:** Escola SESI João Ubaldo Ribeiro, Luís Eduardo Magalhães (LEM) - Bahia (Rede FIEB/SESI)
-- **Atuação Nacional:** Formador no Núcleo de Formação Docente e Mentoria do Departamento Nacional do SESI (SESI-DN)
-- **Outras Atuações:** Embaixador de Inteligência Artificial da Innovent Solutions
-- **Formação:** Licenciatura em História (UNOPAR, 2013-2016)
-- **Principais Reconhecimentos:**
-  - Microsoft Certified: Líder de Transformação de IA (2026)
-  - Microsoft Innovative Educator Expert (MIEE 2024-2025, 2025-2026)
-  - Microsoft Certified Educator (MCE 2021)
-  - Copilot Studio Agent Academy (Recruit & Operative - 2026)
-  - IBM Prompt Engineering Foundation Learner (2024)
-  - Minecraft Educator Ambassador (2024)
-  - Vencedor do Seminário de Boas Práticas da FIEB (2023)
-  - Palestrante oficial Bett Brasil 2026 (Arena Startup)
-  - Escola Incubadora Microsoft: Conduziu a Escola SESI João Ubaldo Ribeiro a ser uma das 22 incubadoras do país
+Educador dedicado à convergência entre inteligência artificial generativa, metodologias ativas e ciências humanas a partir do Oeste baiano. Conduziu projetos pioneiros em letramento digital e valorização da cultura afro-indígena com apoio institucional da Rede FIEB/SESI Bahia e tecnologias Microsoft.
+
+## Dossiê e Documentação
+
+- [Dossiê Acadêmico e Biografia Completa](https://professorrafaelalves.com/rafael_alves_da_silva.md): Biografia curricular detalhada, marcos cronológicos da carreira docente, certificações internacionais e fundamentação pedagógica.
+- [Manifesto WebMCP](https://professorrafaelalves.com/mcp-manifest.json): Manifesto do Model Context Protocol para agentes autônomos com endpoints e esquemas de ferramentas.
+- [Mapa do Site](https://professorrafaelalves.com/sitemap.xml): Estrutura canônica de URLs indexáveis para motores de busca e crawlers.
+- [Arquivo de Autoria Humana](https://professorrafaelalves.com/humans.txt): Informações sobre a equipe de arquitetura web, padrões e desenvolvimento sem frameworks.
 
 ## Projetos em Destaque
-- **I.A. Afro-Indígena: Recriando Narrativas e Heróis:**
-  - Uso do Microsoft Copilot e Copilot Designer para gerar imagens históricas e histórias em quadrinhos de personagens afro-brasileiros e indígenas que não possuíam retratos oficiais (Catarina Paraguaçu, Sepé Tiaraju, Luiza Mahin, Araribóia, Chico Rei, Benedito Meia Légua).
-  - Participação com o aluno Guilherme Delfino no Microsoft AI Tour em São Paulo (Setembro de 2024).
-  - Cobertura pela TV Oeste (afiliada TV Bahia/Globo) e portal G1 Bahia.
-  - Artigo científico nos Anais do VI Congresso Online Internacional de Educação (CONIEDU VI).
-- **Reconhecimento Internacional (University of Maryland):**
-  - O Prof. Kevin Martins (Associate Professor of Cybersecurity na University of Maryland / Microsoft) citou e levou o projeto do professor Rafael Alves para conferência universitária nos Estados Unidos.
-- **AGENT: Ciências Humanas - ENEM:**
-  - Agente conversacional desenvolvido no Microsoft Copilot Studio com Azure OpenAI e Azure AI Search para o hackathon mundial Microsoft Agent Academy.
-- **História do Dinheiro & Google Lens:**
-  - Estudo de numismática brasileira e mundial do 6º ano EF aliado ao Google Lens para pesquisa contextual histórica.
 
-## Links Oficiais & Perfis Externos
-- Website Oficial: https://professorrafaelalves.com/
-- Instagram Oficial: https://www.instagram.com/rafael_alvespw/
-- LinkedIn: https://www.linkedin.com/in/profrafaalves/
-- WhatsApp Direto: https://wa.me/5577998401073
-- Perfil Bett Brasil: https://brasil.bettshow.com/palestrantes_geral/rafael-alves-da-silva
-- Reportagem G1 / TV Bahia: https://g1.globo.com/ba/bahia/especial-publicitario/fieb/sistema-fieb/noticia/2024/09/16/estudantes-usam-inteligencia-artificial-para-recriar-figuras-historicas-na-bahia.ghtml
+- [Projeto I.A. Afro-Indígena: Recriando Narrativas e Heróis](https://professorrafaelalves.com/#projetos): Projeto pedagógico utilizando Microsoft Copilot e Copilot Designer para resgatar figuras históricas brasileiras sem iconografia oficial, com destaque na mídia nacional e no Microsoft AI Tour.
+- [Reportagem Portal G1 / TV Bahia](https://g1.globo.com/ba/bahia/especial-publicitario/fieb/sistema-fieb/noticia/2024/09/16/estudantes-usam-inteligencia-artificial-para-recriar-figuras-historicas-na-bahia.ghtml): Cobertura jornalística oficial sobre os alunos da Escola SESI LEM e o projeto de recriação histórica com IA.
+- [Palestra Bett Brasil 2026](https://brasil.bettshow.com/palestrantes_geral/rafael-alves-da-silva): Perfil oficial de palestrante no maior evento de educação e tecnologia da América Latina.
+- [AGENT: Ciências Humanas ENEM](https://professorrafaelalves.com/#projetos): Agente inteligente desenvolvido no Microsoft Copilot Studio com Azure OpenAI para apoio a estudantes no ENEM.
+- [Projeto História do Dinheiro com Google Lens](https://professorrafaelalves.com/#projetos): Metodologia ativa integrando numismática histórica com visão computacional para o Ensino Fundamental.
+
+## Perfis Oficiais e Canais Institucionais
+
+- [Website Oficial](https://professorrafaelalves.com/): Página inicial oficial com palestras, trajetórias e contato.
+- [Perfil LinkedIn](https://www.linkedin.com/in/profrafaalves/): Rede profissional com atualizações sobre formações e publicações.
+- [Instagram Oficial (@rafael_alvespw)](https://www.instagram.com/rafael_alvespw/): Canal de divulgação de projetos educacionais e bastidores de eventos.
+- [Perfil Microsoft Learn](https://learn.microsoft.com/pt-br/users/profrafaelalves/): Histórico de certificações MIEE, Microsoft Certified Educator e AI Transformation Leader.
+- [WhatsApp Direto para Convites e Palestras](https://wa.me/5577998401073): Contato direto com a assessoria para agendamento de keynotes e treinamentos corporativos.
+
+## Optional
+
+- [Código-fonte no GitHub](https://github.com/alexlivre/professorrafaelalves.com): Repositório aberto com todo o código-fonte estático e testes automatizados.
