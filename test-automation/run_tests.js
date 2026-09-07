@@ -156,6 +156,28 @@ test('Unit: humans.txt presence and authorship attribution', () => {
   assert(html.includes('https://alexlivre.dev/'), 'index.html must link https://alexlivre.dev/');
 });
 
+// Test 9: Unit - Schema.org JSON-LD structure and compliance
+test('Unit: Schema.org JSON-LD structure and entity integrity', () => {
+  const htmlPath = path.join(rootDir, 'index.html');
+  const html = fs.readFileSync(htmlPath, 'utf8');
+  const match = html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/);
+  assert(match, 'index.html must contain application/ld+json script');
+
+  const jsonLd = JSON.parse(match[1]);
+  assert(jsonLd['@context'] === 'https://schema.org', 'Context must be https://schema.org');
+  assert(Array.isArray(jsonLd['@graph']), 'Schema must use @graph array');
+
+  const person = jsonLd['@graph'].find(item => item['@type'] === 'Person');
+  assert(person, 'Must define Person entity');
+  assert(person.alumniOf, 'Person must have alumniOf');
+  assert(!person.alumniOf.degree, 'CollegeOrUniversity must not have degree property directly');
+  assert(person.hasCredential, 'Person must have hasCredential');
+
+  const profilePage = jsonLd['@graph'].find(item => item['@type'] === 'ProfilePage');
+  assert(profilePage, 'Must define ProfilePage entity');
+  assert(profilePage.mainEntity, 'ProfilePage must specify mainEntity');
+});
+
 console.log('\n--- Test Summary ---');
 console.log(`Passed: ${testsPassed}`);
 console.log(`Failed: ${testsFailed}`);
