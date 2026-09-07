@@ -1,6 +1,6 @@
 /**
  * Modelo 04: Executivo Keynote & Alabaster Frost
- * Prof. Rafael Alves da Silva - Scripts
+ * Professor Rafael Alves da Silva - Scripts
  * Vanilla JavaScript (Zero Frameworks, Accessible, Pure Vector SVG)
  */
 
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
    -------------------------------------------------------------------------- */
 function initImageFallbacks() {
   const images = document.querySelectorAll('img');
-  const fallbackSvg = "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='600' height='400' viewBox='0 0 600 400'><rect width='600' height='400' fill='%23f1f5f9'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='20' fill='%230b1528' font-weight='bold'>Prof. Rafael Alves da Silva</text><text x='50%' y='60%' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='14' fill='%2364748b'>Escola SESI / MIEE</text></svg>";
+  const fallbackSvg = "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='600' height='400' viewBox='0 0 600 400'><rect width='600' height='400' fill='%23f1f5f9'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='20' fill='%230b1528' font-weight='bold'>Professor Rafael Alves da Silva</text><text x='50%' y='60%' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='14' fill='%2364748b'>Escola SESI / MIEE</text></svg>";
 
   images.forEach(img => {
     if (!img.hasAttribute('referrerpolicy')) {
@@ -198,7 +198,7 @@ function initContactDispatch() {
     const reason = document.getElementById('dispatchReason')?.value || 'Contato';
     const message = document.getElementById('dispatchMessage')?.value.trim() || '';
 
-    const fullMessage = `Olá, Prof. Rafael Alves! Meu nome é ${name} (${org}). Gostaria de conversar sobre: *${reason}*.\n\n${message}`;
+    const fullMessage = `Olá, Professor Rafael Alves! Meu nome é ${name} (${org}). Gostaria de conversar sobre: *${reason}*.\n\n${message}`;
     const encoded = encodeURIComponent(fullMessage);
     const whatsappUrl = `https://wa.me/5577998401073?text=${encoded}`;
 

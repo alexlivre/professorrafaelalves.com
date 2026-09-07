@@ -1,10 +1,10 @@
 {
   "$schema": "https://modelcontextprotocol.io/schema/manifest/v1.json",
-  "name": "Prof. Rafael Alves da Silva WebMCP",
-  "description": "Model Context Protocol endpoint and context manifest for Prof. Rafael Alves da Silva (Educator, Historian, AI in Education Specialist)",
+  "name": "Professor Rafael Alves da Silva WebMCP",
+  "description": "Model Context Protocol endpoint and context manifest for Professor Rafael Alves da Silva (Educator, Historian, AI in Education Specialist)",
   "version": "1.0.0",
   "author": {
-    "name": "Prof. Rafael Alves da Silva",
+    "name": "Professor Rafael Alves da Silva",
     "url": "https://professorrafaelalves.com",
     "email": "professor.rafael@innoventsolutions.com.br"
   },
@@ -37,7 +37,7 @@
   "tools": [
     {
       "name": "get_educator_profile",
-      "description": "Returns verified biographic and institutional data for Prof. Rafael Alves da Silva.",
+      "description": "Returns verified biographic and institutional data for Professor Rafael Alves da Silva.",
       "parameters": {
         "type": "object",
         "properties": {}
@@ -45,7 +45,7 @@
     },
     {
       "name": "get_speaking_availability",
-      "description": "Retrieves keynote topics, pedagogical workshops, and contact dispatch instructions for inviting Prof. Rafael Alves.",
+      "description": "Retrieves keynote topics, pedagogical workshops, and contact dispatch instructions for inviting Professor Rafael Alves.",
       "parameters": {
         "type": "object",
         "properties": {

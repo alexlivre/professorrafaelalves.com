@@ -5,7 +5,7 @@
   Location: Brasil
 
 /* OWNER */
-  Subject: Prof. Rafael Alves da Silva
+  Subject: Professor Rafael Alves da Silva
   Role: Keynote Speaker, AI & Education Researcher, Microsoft MIEE
   Site: https://professorrafaelalves.com/
 
