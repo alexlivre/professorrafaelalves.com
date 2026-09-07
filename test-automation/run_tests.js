@@ -178,6 +178,17 @@ test('Unit: Schema.org JSON-LD structure and entity integrity', () => {
   assert(profilePage.mainEntity, 'ProfilePage must specify mainEntity');
 });
 
+// Test 10: Unit - BingSiteAuth.xml verification file integrity
+test('Unit: BingSiteAuth.xml presence and XML format', () => {
+  const bingAuthPath = path.join(rootDir, 'BingSiteAuth.xml');
+  assert(fs.existsSync(bingAuthPath), 'BingSiteAuth.xml must exist');
+  const content = fs.readFileSync(bingAuthPath, 'utf8');
+  assert(content.includes('<users>'), 'BingSiteAuth.xml must contain <users>');
+  assert(content.includes('</users>'), 'BingSiteAuth.xml must contain </users>');
+  assert(content.includes('<user>'), 'BingSiteAuth.xml must contain <user>');
+  assert(content.includes('</user>'), 'BingSiteAuth.xml must contain </user>');
+});
+
 console.log('\n--- Test Summary ---');
 console.log(`Passed: ${testsPassed}`);
 console.log(`Failed: ${testsFailed}`);
