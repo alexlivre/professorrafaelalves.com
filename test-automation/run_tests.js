@@ -189,6 +189,36 @@ test('Unit: BingSiteAuth.xml presence and XML format', () => {
   assert(content.includes('</user>'), 'BingSiteAuth.xml must contain </user>');
 });
 
+// Test 11: Integration - FAQPage Schema, visible FAQ cards and naming rules
+test('Integration: FAQPage Schema and naming compliance (Professor Rafael Alves)', () => {
+  const htmlPath = path.join(rootDir, 'index.html');
+  const html = fs.readFileSync(htmlPath, 'utf8');
+
+  // Schema FAQPage verification
+  const match = html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/);
+  const jsonLd = JSON.parse(match[1]);
+  const faqPage = jsonLd['@graph'].find(item => item['@type'] === 'FAQPage');
+  assert(faqPage, 'Schema must define FAQPage entity');
+  assert(Array.isArray(faqPage.mainEntity) && faqPage.mainEntity.length >= 5, 'FAQPage must contain at least 5 Q&A items');
+
+  const person = jsonLd['@graph'].find(item => item['@type'] === 'Person');
+  assert(person.alternateName.includes('Professor Rafael Alves'), 'Must include Professor Rafael Alves in alternateName');
+  assert(person.alternateName.includes('Professor Rafael Alves da Silva'), 'Must include Professor Rafael Alves da Silva in alternateName');
+  assert(person.disambiguatingDescription, 'Person must have disambiguatingDescription');
+
+  // Visible FAQ verification
+  assert(html.includes('id="faq"'), 'Must have #faq section in HTML');
+  assert(html.includes('href="#faq"'), 'Must link #faq in navigation');
+  assert(html.includes('Quem é o Professor Rafael Alves?'), 'Visible FAQ must include first question');
+
+  // Ensure minimum naming rule: no "Professor Rafael " without "Alves"
+  const badPatterns = [/Professor Rafael(?!\s+Alves)/g, /Prof\.\s+Rafael(?!\s+Alves)/g];
+  for (const pat of badPatterns) {
+    const matches = html.match(pat);
+    assert(!matches, `Found unauthorized shortened name matching ${pat}`);
+  }
+});
+
 console.log('\n--- Test Summary ---');
 console.log(`Passed: ${testsPassed}`);
 console.log(`Failed: ${testsFailed}`);
